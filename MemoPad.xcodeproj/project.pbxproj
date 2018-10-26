@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1483687D20E3BCD9008E8E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483687C20E3BCD9008E8E07 /* AppDelegate.swift */; };
-		1483687F20E3BCD9008E8E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483687E20E3BCD9008E8E07 /* ViewController.swift */; };
 		1483688220E3BCD9008E8E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1483688020E3BCD9008E8E07 /* Main.storyboard */; };
 		1483688520E3BCD9008E8E07 /* MemoPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1483688320E3BCD9008E8E07 /* MemoPad.xcdatamodeld */; };
 		1483688720E3BCDB008E8E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1483688620E3BCDB008E8E07 /* Assets.xcassets */; };
 		1483688A20E3BCDB008E8E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1483688820E3BCDB008E8E07 /* LaunchScreen.storyboard */; };
+		1483689220E3BD4F008E8E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483689120E3BD4F008E8E07 /* ViewController.swift */; };
+		1483689420E3BD7C008E8E07 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483689320E3BD7C008E8E07 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1483687920E3BCD9008E8E07 /* MemoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1483687C20E3BCD9008E8E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1483687E20E3BCD9008E8E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1483688120E3BCD9008E8E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1483688420E3BCD9008E8E07 /* MemoPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoPad.xcdatamodel; sourceTree = "<group>"; };
 		1483688620E3BCDB008E8E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1483688920E3BCDB008E8E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1483688B20E3BCDB008E8E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1483689120E3BD4F008E8E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1483689320E3BD7C008E8E07 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		1483687B20E3BCD9008E8E07 /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				1483689320E3BD7C008E8E07 /* MemoViewController.swift */,
 				1483687C20E3BCD9008E8E07 /* AppDelegate.swift */,
-				1483687E20E3BCD9008E8E07 /* ViewController.swift */,
 				1483688020E3BCD9008E8E07 /* Main.storyboard */,
 				1483688620E3BCDB008E8E07 /* Assets.xcassets */,
+				1483689120E3BD4F008E8E07 /* ViewController.swift */,
 				1483688820E3BCDB008E8E07 /* LaunchScreen.storyboard */,
 				1483688B20E3BCDB008E8E07 /* Info.plist */,
 				1483688320E3BCD9008E8E07 /* MemoPad.xcdatamodeld */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1483687F20E3BCD9008E8E07 /* ViewController.swift in Sources */,
+				1483689420E3BD7C008E8E07 /* MemoViewController.swift in Sources */,
+				1483689220E3BD4F008E8E07 /* ViewController.swift in Sources */,
 				1483688520E3BCD9008E8E07 /* MemoPad.xcdatamodeld in Sources */,
 				1483687D20E3BCD9008E8E07 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLPB92A5Z6;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLPB92A5Z6;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
